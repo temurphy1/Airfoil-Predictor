@@ -3,7 +3,6 @@ A neural network that's trained off of aero data from NACA airfoils and can pred
 
 We're expecting data in the format of something like this:
 NACA Airfoil Number | C_lift | C_drag | C_moment
---------------------------------------------------
 0012                |  .4    | .06     | .25
 ....                |   ...  |  ....    |...
 
