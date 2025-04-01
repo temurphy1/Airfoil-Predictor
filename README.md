@@ -2,9 +2,12 @@
 A neural network that's trained off of aero data from NACA airfoils and can predict aero data of new NACA airfoils
 
 We're expecting data in the format of something like this:
-NACA Airfoil Number | C_lift | C_drag | C_moment
+
+NACA Airfoil Number | C_lift | C_drag | C_moment 
+
 0012                |  .4    | .06     | .25
 ....                |   ...  |  ....    |...
+
 
 We're going to pick the flow conditions such that we're not crossing between flow regimes, aka the range of the flow conditions will be set such that
 the patterns between the flow conditions and the aero data will be as simple as possible.
