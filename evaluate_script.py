@@ -1,4 +1,10 @@
 # %%
+
+""" 
+Use requirements.txt to make a virtual environment
+pytorch needs to be installed separately on the venv - see the website to get the pip command
+
+ """
 import torch # type: ignore
 import matplotlib.pyplot as plt # type: ignore
 import pandas as pd # type: ignore
